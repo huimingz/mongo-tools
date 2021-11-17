@@ -133,6 +133,11 @@ func (dump *MongoDump) ValidateOptions() error {
 	return nil
 }
 
+func (dump *MongoDump) InitWithClient(client *mongo.Client) error {
+	dump.SessionProvider = db.NewSessionProviderWithClient(client)
+	return dump.Init()
+}
+
 // Init performs preliminary setup operations for MongoDump.
 func (dump *MongoDump) Init() error {
 	log.Logvf(log.DebugHigh, "initializing mongodump object")
@@ -155,9 +160,11 @@ func (dump *MongoDump) Init() error {
 	}
 	dump.ToolOptions.ReadPreference = pref
 
-	dump.SessionProvider, err = db.NewSessionProvider(*dump.ToolOptions)
-	if err != nil {
-		return fmt.Errorf("can't create session: %v", err)
+	if dump.SessionProvider == nil {
+		dump.SessionProvider, err = db.NewSessionProvider(*dump.ToolOptions)
+		if err != nil {
+			return fmt.Errorf("can't create session: %v", err)
+		}
 	}
 
 	dump.isMongos, err = dump.SessionProvider.IsMongos()
