@@ -145,6 +145,10 @@ func NewSessionProvider(opts options.ToolOptions) (*SessionProvider, error) {
 	return &SessionProvider{client: client}, nil
 }
 
+func NewSessionProviderWithClient(client *mongo.Client) *SessionProvider {
+	return &SessionProvider{client: client}
+}
+
 // addClientCertFromFile adds a client certificate to the configuration given a path to the
 // containing file and returns the certificate's subject name.
 func addClientCertFromFile(cfg *tls.Config, clientFile, keyPassword string) (string, error) {
