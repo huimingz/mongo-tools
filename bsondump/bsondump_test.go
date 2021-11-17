@@ -13,7 +13,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/mongodb/mongo-tools/common/testtype"
+	"github.com/huimingz/mongo-tools/common/testtype"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

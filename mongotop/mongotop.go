@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mongodb/mongo-tools/common/db"
-	"github.com/mongodb/mongo-tools/common/log"
-	"github.com/mongodb/mongo-tools/common/options"
-	"github.com/mongodb/mongo-tools/common/util"
+	"github.com/huimingz/mongo-tools/common/db"
+	"github.com/huimingz/mongo-tools/common/log"
+	"github.com/huimingz/mongo-tools/common/options"
+	"github.com/huimingz/mongo-tools/common/util"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/x/bsonx"
 )

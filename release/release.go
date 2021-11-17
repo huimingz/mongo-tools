@@ -24,12 +24,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mongodb/mongo-tools/release/aws"
-	"github.com/mongodb/mongo-tools/release/download"
-	"github.com/mongodb/mongo-tools/release/env"
-	"github.com/mongodb/mongo-tools/release/evergreen"
-	"github.com/mongodb/mongo-tools/release/platform"
-	"github.com/mongodb/mongo-tools/release/version"
+	"github.com/huimingz/mongo-tools/release/aws"
+	"github.com/huimingz/mongo-tools/release/download"
+	"github.com/huimingz/mongo-tools/release/env"
+	"github.com/huimingz/mongo-tools/release/evergreen"
+	"github.com/huimingz/mongo-tools/release/platform"
+	"github.com/huimingz/mongo-tools/release/version"
 )
 
 // These are the binaries that are part of mongo-tools, relative

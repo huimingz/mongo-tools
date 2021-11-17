@@ -5,9 +5,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mongodb/mongo-tools/common/bsonutil"
-	"github.com/mongodb/mongo-tools/common/log"
-	"github.com/mongodb/mongo-tools/common/options"
+	"github.com/huimingz/mongo-tools/common/bsonutil"
+	"github.com/huimingz/mongo-tools/common/log"
+	"github.com/huimingz/mongo-tools/common/options"
 	"github.com/pkg/errors"
 	"go.mongodb.org/mongo-driver/bson"
 )

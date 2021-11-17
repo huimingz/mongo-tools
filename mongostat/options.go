@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/mongodb/mongo-tools/common/options"
-	"github.com/mongodb/mongo-tools/mongostat/stat_consumer"
+	"github.com/huimingz/mongo-tools/common/options"
+	"github.com/huimingz/mongo-tools/mongostat/stat_consumer"
 )
 
 var Usage = `<options> <connection-string> <polling interval in seconds>

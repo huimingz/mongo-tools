@@ -15,7 +15,7 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/mongodb/mongo-tools/common/testtype"
+	"github.com/huimingz/mongo-tools/common/testtype"
 )
 
 var foldTests = []struct {

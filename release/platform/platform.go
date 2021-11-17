@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/mongodb/mongo-tools/release/env"
+	"github.com/huimingz/mongo-tools/release/env"
 )
 
 const (

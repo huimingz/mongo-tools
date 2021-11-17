@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mongodb/mongo-tools/common/db"
-	"github.com/mongodb/mongo-tools/common/options"
+	"github.com/huimingz/mongo-tools/common/db"
+	"github.com/huimingz/mongo-tools/common/options"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )

@@ -13,9 +13,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mongodb/mongo-tools/common/log"
-	"github.com/mongodb/mongo-tools/common/options"
-	"github.com/mongodb/mongo-tools/common/testtype"
+	"github.com/huimingz/mongo-tools/common/log"
+	"github.com/huimingz/mongo-tools/common/options"
+	"github.com/huimingz/mongo-tools/common/testtype"
 	. "github.com/smartystreets/goconvey/convey"
 	"go.mongodb.org/mongo-driver/bson"
 )

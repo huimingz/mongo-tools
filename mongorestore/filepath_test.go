@@ -11,13 +11,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mongodb/mongo-tools/common/intents"
-	"github.com/mongodb/mongo-tools/common/log"
-	"github.com/mongodb/mongo-tools/common/options"
-	commonOpts "github.com/mongodb/mongo-tools/common/options"
-	"github.com/mongodb/mongo-tools/common/testtype"
-	"github.com/mongodb/mongo-tools/common/util"
-	"github.com/mongodb/mongo-tools/mongorestore/ns"
+	"github.com/huimingz/mongo-tools/common/intents"
+	"github.com/huimingz/mongo-tools/common/log"
+	"github.com/huimingz/mongo-tools/common/options"
+	commonOpts "github.com/huimingz/mongo-tools/common/options"
+	"github.com/huimingz/mongo-tools/common/testtype"
+	"github.com/huimingz/mongo-tools/common/util"
+	"github.com/huimingz/mongo-tools/mongorestore/ns"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

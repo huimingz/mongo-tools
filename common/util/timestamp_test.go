@@ -9,7 +9,7 @@ package util
 import (
 	"testing"
 
-	"github.com/mongodb/mongo-tools/common/testtype"
+	"github.com/huimingz/mongo-tools/common/testtype"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

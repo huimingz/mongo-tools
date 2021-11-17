@@ -7,8 +7,8 @@
 package testutil
 
 import (
-	commonOpts "github.com/mongodb/mongo-tools/common/options"
-	"github.com/mongodb/mongo-tools/common/testtype"
+	commonOpts "github.com/huimingz/mongo-tools/common/options"
+	"github.com/huimingz/mongo-tools/common/testtype"
 	"runtime"
 	"strings"
 )

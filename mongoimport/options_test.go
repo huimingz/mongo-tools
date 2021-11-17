@@ -13,8 +13,8 @@ import (
 
 	"go.mongodb.org/mongo-driver/mongo/writeconcern"
 
-	"github.com/mongodb/mongo-tools/common/options"
-	"github.com/mongodb/mongo-tools/common/testtype"
+	"github.com/huimingz/mongo-tools/common/options"
+	"github.com/huimingz/mongo-tools/common/testtype"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

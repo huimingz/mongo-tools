@@ -8,10 +8,10 @@
 package main
 
 import (
-	"github.com/mongodb/mongo-tools/common/log"
-	"github.com/mongodb/mongo-tools/common/signals"
-	"github.com/mongodb/mongo-tools/common/util"
-	"github.com/mongodb/mongo-tools/mongofiles"
+	"github.com/huimingz/mongo-tools/common/log"
+	"github.com/huimingz/mongo-tools/common/signals"
+	"github.com/huimingz/mongo-tools/common/util"
+	"github.com/huimingz/mongo-tools/mongofiles"
 
 	"fmt"
 	"os"
